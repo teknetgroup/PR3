@@ -1,0 +1,18 @@
+  if (LEDList.SelectedIndex > -1)
+            {
+                TxtLed.Text = LEDList.SelectedRow.Cells[1].Text;
+                txtpuis.Text = LEDList.SelectedRow.Cells[2].Text;
+                txtespace.Text = LEDList.SelectedRow.Cells[4].Text;
+                nbV.Text = LEDList.SelectedRow.Cells[3].Text;
+                nbV.ReadOnly = true;
+                nbV.BackColor = Color.WhiteSmoke;
+            }
+            else{}
+			
+			
+			
+	 btnvalid.Enabled = false;
+	 
+  txtRefProjet.ReadOnly = true;
+  txtRefProjet.BackColor = Color.WhiteSmoke;
+	 
